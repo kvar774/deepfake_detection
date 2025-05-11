@@ -16,7 +16,7 @@ set_global_policy("mixed_float16")
 IMG_SIZE = (128, 128)
 FRAME_COUNT = 10
 BATCH_SIZE = 16
-DATASET_PATH = "./videos_dataset/"
+DATASET_PATH = "./backend/videos_dataset/"
 
 def is_valid_video(video_path):
     cap = cv2.VideoCapture(video_path)
