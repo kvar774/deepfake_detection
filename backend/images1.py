@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 
 # Dataset Paths
-dataset_path = "./image_dataset/"
+dataset_path = "./backend/image_dataset/"
 train_dir = os.path.join(dataset_path, "train")
 val_dir = os.path.join(dataset_path, "validation")
 test_dir = os.path.join(dataset_path, "test")
